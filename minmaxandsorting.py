@@ -1,0 +1,10 @@
+stocks={
+    'AMZN':'100',
+    'YHOO':'200',
+    'HARS':'300',
+    'KOHL':'400'
+}
+print(min(zip(stocks.values(),stocks.keys())))
+print(max(zip(stocks.values(),stocks.keys())))
+print(sorted(zip(stocks.values(),stocks.keys())))
+print(sorted(zip(stocks.keys(),stocks.values())))
