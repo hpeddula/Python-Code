@@ -1,7 +1,7 @@
 import random
 def user():
     user_input=input("Would you like to roll a  die,Please Enter Y/N:")
-    if user_input == 'Y':
+    if user_input.upper() == 'Y':
        number()
        user()
     else:
